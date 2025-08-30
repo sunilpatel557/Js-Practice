@@ -1,0 +1,81 @@
+/* .container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.circule{
+
+height: 200px;
+width: 200px;
+border: 1px solid black;
+border-radius: 50%;
+
+animation: move 7s linear infinite;
+}
+
+
+@keyframes move{
+
+0%{
+    transform: translateX(0);
+    background-color: red;
+
+    box-shadow:12px 12px 23px aqua;
+}
+25%{
+   background-color: blue;
+   transform: translateX(100px);
+   border-radius: 0%;
+
+   box-shadow:12px 12px 23px blue;
+}
+
+50%{
+   background-color:yellow;
+   transform: translateX(200px);
+   border-top-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+
+   box-shadow:12px 12px 23px black;
+
+}
+
+75%{
+   background-color: black;
+   transform: translateX(300px);
+
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   box-shadow:12px 12px 23px yellow;
+}
+
+} */
+
+
+.carlight{
+
+height: 50px;
+width: 50px;
+background-image:url(carlight-removebg-preview.png);
+background-size: cover;
+}
+
+.light{
+
+height: 30px;
+width: 50px;
+border: 0.1rem solid black;
+position: relative;
+top: 300px;
+left: 200px;
+border-radius: 50%;
+
+
+}
+
+body{
+    background-color: black;
+}
